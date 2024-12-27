@@ -1,0 +1,39 @@
+.cart-container {
+  gap: 20px;
+}
+
+.container-items {
+  gap: 10px;
+  overflow-y: auto;
+  max-height: 70vh;
+}
+
+.cart-item {
+  border-bottom: 1px solid #000;
+}
+
+.cart-img-Size {
+  width: 100px;
+  height: 100px;
+  max-height: 120px;
+  object-fit: cover;
+}
+
+.cart-info h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  .cart-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-items,
+  .cart-info {
+    max-width: 100%;
+  }
+}

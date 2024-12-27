@@ -1,0 +1,98 @@
+#mainRoot {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Chewy", system-ui;
+  background-color: #edd6b9;
+}
+
+.mainPage {
+  flex-grow: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent;
+  filter: invert(44%) sepia(94%) saturate(7113%) hue-rotate(147deg)
+    brightness(101%) contrast(99%);
+}
+
+.cashSize {
+  font-size: smaller;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.carousel-image-overlay {
+  position: relative;
+}
+
+.carousel-image-overlay img {
+  filter: brightness(50%);
+  transition: filter 0.3s ease;
+}
+
+.carousel-item:hover .carousel-image-overlay img {
+  filter: brightness(70%);
+}
+
+.centered-hr {
+  margin: 0 auto;
+}
+
+.small-text {
+  font-size: 10px;
+}
+
+.btn-color {
+  background-color: #e88b77;
+}
+
+.btn-primary:disabled {
+  background-color: #994B2D;
+}
+
+.btn-color:hover {
+  background-color: #994B2D;
+}
+
+.btn-index-color {
+  background-color: #994B2D; 
+}
+
+.btn-index-color:hover {
+  background-color: #e88b77;
+}
+
+.sizeError {
+  font-size: 100px;
+}
+
+.txtErrorColor {
+  color: #C14739;
+}
+
+.txtSpinner {
+  color: #e88b77;
+}
+
+.price {
+  font-weight: bold;
+  color: #d35b58;
+}
+
+.price-tag {
+  line-height: 1.2;
+}
+
+.item-text-color {
+  color: #555;
+}
+
+.card-img-size {
+  object-fit: cover;
+  height: 200px;
+}
